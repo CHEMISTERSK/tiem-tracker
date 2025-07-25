@@ -46,6 +46,8 @@ def stop_timer():
 root = tk.Tk()
 root.title("Time Tracker")
 root.config(bg = "#232628")
+icon = tk.PhotoImage(file="C:\\Users\\Tomáš\\Desktop\\Tomáš\\Dokumenty\\VSCode\\Python\\doucko\\tiem-tracker\\timer_icon.png")
+root.iconphoto(True, icon)
 
 canvas = tk.Canvas(root, width = 400, height = 400, bg = "#232628")
 canvas.grid(row = 0, column = 0, columnspan = 3, padx = 10, pady = 10)
